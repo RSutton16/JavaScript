@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: orange;
+    text-align: center;
+    padding: 15px;
+
+}
+.navbar ul{
+    color: gray;
+    list-style-type: none;    
+    background-color: gray;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a{
+    color: wheat;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: black;
+}
+.navbar li{
+    float: left;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+
+    border: 5px solid orange;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 20%;
+    overflow: auto;
+
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+    border: 5px solid orange;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 20%;
+    overflow: auto;
+    margin: 10px;
+
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+    border: 5px solid orange;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 20%;
+    margin: 10px;
+
+    overflow: auto;
+
+
+}
+footer{
+    float: none;
+    height: 10%;
+    background-color: gray;
+    height: 20%;
+    overflow: auto;
+}
